@@ -1,0 +1,54 @@
+\babel@toc {russian}{}\relax 
+\contentsline {section}{\numberline {1}Введение}{6}{section.1}%
+\contentsline {subsection}{\numberline {1.1}Проблема одноразовой аутентификации}{6}{subsection.1.1}%
+\contentsline {subsection}{\numberline {1.2}Цель и задачи работы}{7}{subsection.1.2}%
+\contentsline {section}{\numberline {2}Обзор существующих исследований и проблем существующих подходов}{8}{section.2}%
+\contentsline {subsection}{\numberline {2.1}Исследования по клавиатурному, мышиному и мобильному поведению пользователя}{8}{subsection.2.1}%
+\contentsline {subsection}{\numberline {2.2}Современные обзорные работы по мобильной поведенческой биометрии}{10}{subsection.2.2}%
+\contentsline {subsection}{\numberline {2.3}Открытые базы данных и соревнования как попытка стандартизировать сравнение}{12}{subsection.2.3}%
+\contentsline {subsection}{\numberline {2.4}Примеры конкретных систем и моделей непрерывной аутентификации}{13}{subsection.2.4}%
+\contentsline {subsection}{\numberline {2.5}Сводное сравнение рассмотренных работ}{15}{subsection.2.5}%
+\contentsline {subsection}{\numberline {2.6}Выводы по обзору и нерешенные проблемы}{16}{subsection.2.6}%
+\contentsline {section}{\numberline {3}Предлагаемый подход}{18}{section.3}%
+\contentsline {subsection}{\numberline {3.1}Требования к библиотеке}{18}{subsection.3.1}%
+\contentsline {subsection}{\numberline {3.2}Преимущества предлагаемого подхода}{19}{subsection.3.2}%
+\contentsline {section}{\numberline {4}Сбор поведенческой информации}{21}{section.4}%
+\contentsline {subsection}{\numberline {4.1}Источники данных на устройстве}{21}{subsection.4.1}%
+\contentsline {subsection}{\numberline {4.2}Рассматриваемые поведенческие признаки}{21}{subsection.4.2}%
+\contentsline {subsection}{\numberline {4.3}Сбор событий касаний}{23}{subsection.4.3}%
+\contentsline {subsection}{\numberline {4.4}Сбор сенсорных и контекстных данных}{23}{subsection.4.4}%
+\contentsline {subsection}{\numberline {4.5}Единый внутренний формат событий}{23}{subsection.4.5}%
+\contentsline {section}{\numberline {5}Сырые данные, запись и воспроизведение}{25}{section.5}%
+\contentsline {subsection}{\numberline {5.1}Почему необходимо сохранять сырые данные}{25}{subsection.5.1}%
+\contentsline {subsection}{\numberline {5.2}Формат хранения JSONL}{25}{subsection.5.2}%
+\contentsline {subsection}{\numberline {5.3}Запись событий}{26}{subsection.5.3}%
+\contentsline {subsection}{\numberline {5.4}Чтение и воспроизведение событий}{26}{subsection.5.4}%
+\contentsline {section}{\numberline {6}Построение временных окон}{27}{section.6}%
+\contentsline {subsection}{\numberline {6.1}Назначение временных окон}{27}{subsection.6.1}%
+\contentsline {subsection}{\numberline {6.2}Агрегационные признаки}{28}{subsection.6.2}%
+\contentsline {subsection}{\numberline {6.3}Сборка окон из сырых событий}{29}{subsection.6.3}%
+\contentsline {section}{\numberline {7}Анализ аномальности временных окон}{30}{section.7}%
+\contentsline {subsection}{\numberline {7.1}Общая постановка задачи обнаружения аномалий}{30}{subsection.7.1}%
+\contentsline {subsection}{\numberline {7.2}Статистический детектор}{30}{subsection.7.2}%
+\contentsline {subsection}{\numberline {7.3}MiniBatch K-Means}{31}{subsection.7.3}%
+\contentsline {subsection}{\numberline {7.4}Модель гауссовых смесей}{31}{subsection.7.4}%
+\contentsline {subsection}{\numberline {7.5}Автоэнкодер}{32}{subsection.7.5}%
+\contentsline {subsection}{\numberline {7.6}Изолирующий лес}{32}{subsection.7.6}%
+\contentsline {subsection}{\numberline {7.7}Сравнительная характеристика детекторов аномальности}{33}{subsection.7.7}%
+\contentsline {section}{\numberline {8}Определение смены пользователя}{33}{section.8}%
+\contentsline {subsection}{\numberline {8.1}Почему недостаточно отдельного аномального окна}{33}{subsection.8.1}%
+\contentsline {subsection}{\numberline {8.2}Эвристическое голосование}{34}{subsection.8.2}%
+\contentsline {subsection}{\numberline {8.3}Скрытая марковская модель}{34}{subsection.8.3}%
+\contentsline {subsection}{\numberline {8.4}Байесовская модель обнаружения точек изменения}{34}{subsection.8.4}%
+\contentsline {subsection}{\numberline {8.5}Комбинации моделей}{35}{subsection.8.5}%
+\contentsline {section}{\numberline {9}Метрики сравнения моделей}{35}{section.9}%
+\contentsline {subsection}{\numberline {9.1}Биометрические ошибки}{35}{subsection.9.1}%
+\contentsline {subsection}{\numberline {9.2}Recall и задержка обнаружения}{36}{subsection.9.2}%
+\contentsline {section}{\numberline {10}Безопасность, приватность и ограничения}{36}{section.10}%
+\contentsline {subsection}{\numberline {10.1}Приватность поведенческих данных}{36}{subsection.10.1}%
+\contentsline {subsection}{\numberline {10.2}Отравление профиля}{37}{subsection.10.2}%
+\contentsline {subsection}{\numberline {10.3}Системные метрики}{37}{subsection.10.3}%
+\contentsline {subsection}{\numberline {10.4}Таблица сравнения моделей}{39}{subsection.10.4}%
+\contentsline {section}{\numberline {11}Заключение}{41}{section.11}%
+\contentsline {section}{\numberline {12}Основные результаты}{42}{section.12}%
+\contentsline {section}{{\cyrillictext \CYRS \cyrp \cyri \cyrs \cyro \cyrk \ \cyrl \cyri \cyrt \cyre \cyrr \cyra \cyrt \cyru \cyrr \cyrery }}{44}{section*.7}%

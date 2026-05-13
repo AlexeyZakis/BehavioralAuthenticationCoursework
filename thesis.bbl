@@ -1,0 +1,270 @@
+\begin{thebibliography}{10}
+\def\selectlanguageifdefined#1{
+\expandafter\ifx\csname date#1\endcsname\relax
+\else\language\csname l@#1\endcsname\fi}
+\ifx\undefined\url\def\url#1{{\small #1}}\else\fi
+\ifx\undefined\BibUrl\def\BibUrl#1{\url{#1}}\else\fi
+\ifx\undefined\BibDoi\def\BibDoi#1{DOI:
+  \href{https://doi.org/#1}{\detokenize{#1}}}\else\fi
+\ifx\undefined\BibAnnote\long\def\BibAnnote#1{}\else\fi
+\ifx\undefined\BibEmph\def\BibEmph#1{\emph{#1}}\else\fi
+
+\bibitem{zaklyakov2017hybrid}
+\selectlanguageifdefined{russian}
+\BibEmph{{Закляков Р. Д.}} Разработка гибридных
+  методов распознавания пользователя по
+  особенностям его работы со стандартными
+  устройствами ввода компьютера~/ ~{Закляков
+  Р. Д.}, ~{Петровский М. И.}, ~{Попов И. С.}~//
+  Программные системы и инструменты.
+  Тематический сборник № 17. ---
+\newblock Москва: Издательство факультета ВМК
+  МГУ; МАКС Пресс, 2017. ---
+\newblock {С.}~149--161.
+  \BibUrl{https://asvk.cs.msu.ru/wp-content/uploads/2023/04/17.pdf}.
+
+\bibitem{krasnyakov2017virtualkeyboard}
+\selectlanguageifdefined{russian}
+\BibEmph{{Красняков Е. И.}} Аутентификация
+  пользователя мобильного устройства по
+  характеристикам работы с виртуальной
+  клавиатурой~/ ~{Красняков Е. И.}, ~{Попов И.
+  С.}~// Программные системы и инструменты.
+  Тематический сборник № 17. ---
+\newblock Москва: Издательство факультета ВМК
+  МГУ; МАКС Пресс, 2017. ---
+\newblock {С.}~162--173.
+  \BibUrl{https://asvk.cs.msu.ru/wp-content/uploads/2023/04/17.pdf}.
+
+\bibitem{stylios2021survey}
+\selectlanguageifdefined{english}
+\BibEmph{Stylios,~Ioannis}. Behavioral biometrics \& continuous user
+  authentication on mobile devices: A survey~/ Ioannis~Stylios,
+  Spyros~Kokolakis, Olga~Thanou, Sotirios~Chatzis~// \BibEmph{Information
+  Fusion}. ---
+\newblock 2021. ---
+\newblock Vol.~66. ---
+\newblock Pp.~76--99. \BibDoi{10.1016/j.inffus.2020.08.021}.
+
+\bibitem{abuhamad2021contemporary}
+\selectlanguageifdefined{english}
+\BibEmph{Abuhamad,~Mohammed}. Sensor-Based Continuous Authentication of
+  Smartphones' Users Using Behavioral Biometrics: A Contemporary Survey~/
+  Mohammed~Abuhamad, Ahmed~Abusnaina, DaeHun~Nyang, David~Mohaisen~//
+  \BibEmph{IEEE Internet of Things Journal}. ---
+\newblock 2021. ---
+\newblock Vol.~8, no.~1. ---
+\newblock Pp.~65--84. \BibDoi{10.1109/JIOT.2020.3020076}.
+  \BibUrl{https://arxiv.org/abs/2001.08578}.
+
+\bibitem{raydowling2023stationary}
+\selectlanguageifdefined{english}
+\BibEmph{Ray-Dowling,~Apurva}. Stationary mobile behavioral biometrics: A
+  survey~/ Apurva~Ray-Dowling, Ayan~Dey et~al.~// \BibEmph{Computers \&
+  Security}. ---
+\newblock 2023. ---
+\newblock Vol. 128. ---
+\newblock P.~103164. \BibDoi{10.1016/j.cose.2023.103164}.
+
+\bibitem{mobileb2c2022}
+\selectlanguageifdefined{english}
+\BibEmph{Stragapede,~Giuseppe}. {IJCB} 2022 Mobile Behavioral Biometrics
+  Competition ({MobileB2C})~/ Giuseppe~Stragapede, Ruben~Vera-Rodriguez,
+  Ruben~Tolosana, Aythami~Morales, Julian~Fierrez, Javier~Ortega-Garcia,
+  Sanka~Rasnayaka, Sachith~Seneviratne, Vipula~Dissanayake, Jonathan~Liebers,
+  Ashhadul~Islam, Samir~Brahim~Belhaouari, Sumaiya~Ahmad, Suraiya~Jabin~// 2022
+  IEEE International Joint Conference on Biometrics (IJCB). ---
+\newblock 2022. ---
+\newblock Pp.~1--9. \BibUrl{https://arxiv.org/abs/2210.03072}.
+
+\bibitem{behavepassdb2023}
+\selectlanguageifdefined{english}
+\BibEmph{Stragapede,~Giuseppe}. BehavePassDB: Public Database for Mobile
+  Behavioral Biometrics and Benchmark Evaluation~/ Giuseppe~Stragapede,
+  Ruben~Vera-Rodriguez, Ruben~Tolosana, Aythami~Morales~// \BibEmph{Pattern
+  Recognition}. ---
+\newblock 2023. ---
+\newblock Vol. 134. ---
+\newblock P.~109089. \BibDoi{10.1016/j.patcog.2022.109089}.
+  \BibUrl{https://arxiv.org/abs/2206.02502}.
+
+\bibitem{hu2023authconformer}
+\selectlanguageifdefined{english}
+\BibEmph{Hu,~Mingming}. AuthConFormer: Sensor-based continuous authentication
+  of smartphone users using a convolutional transformer~/ Mingming~Hu,
+  Kun~Zhang, Ruibang~You, Bibo~Tu~// \BibEmph{Computers \& Security}. ---
+\newblock 2023. ---
+\newblock Vol. 127. ---
+\newblock P.~103122. \BibDoi{10.1016/j.cose.2023.103122}.
+
+\bibitem{estrela2021framework}
+\selectlanguageifdefined{english}
+\BibEmph{Estrela,~Paulo M. A.~B.} A Framework for Continuous Authentication
+  Based on Touch Dynamics Biometrics for Mobile Devices~/ Paulo M.
+  A.~B.~Estrela, Gustavo~Carneiro, Lucas~Souza, Edson~Carvalho, Luiz~Galvao~//
+  \BibEmph{Sensors}. ---
+\newblock 2021. ---
+\newblock Vol.~21, no.~12. ---
+\newblock P.~4212. \BibDoi{10.3390/s21124212}.
+  \BibUrl{https://www.mdpi.com/1424-8220/21/12/4212}.
+
+\bibitem{zhang2023smartphonesurvey}
+\selectlanguageifdefined{english}
+\BibEmph{Zhang,~Jingyuan}. A Survey of Behavioral Biometric Authentication on
+  Smartphones~/ Jingyuan~Zhang, Yan~Wang~// Proceedings of the 2023 4th
+  International Conference on Machine Learning and Computer Application. ---
+\newblock Association for Computing Machinery, 2023. ---
+\newblock Pp.~722--729. \BibDoi{10.1145/3650215.3650342}.
+
+\bibitem{finnegan2024utility}
+\selectlanguageifdefined{english}
+\BibEmph{Finnegan,~Olivia~L.} The utility of behavioral biometrics in user
+  authentication and demographic characteristic detection: a scoping review~/
+  Olivia~L.~Finnegan et~al.~// \BibEmph{Systematic Reviews}. ---
+\newblock 2024. ---
+\newblock Vol.~13, no.~1. ---
+\newblock P.~62. \BibDoi{10.1186/s13643-024-02451-1}.
+
+\bibitem{shuwandy2025robust}
+\selectlanguageifdefined{english}
+\BibEmph{Shuwandy,~Moceheb~Lazam}. A Robust Behavioral Biometrics Framework for
+  Smartphone Authentication via Hybrid Machine Learning and TOPSIS~/
+  Moceheb~Lazam~Shuwandy, Qutaiba~Alasad, Maytham~M.~Hammood, Ayad~A.~Yass,
+  Salwa~Khalid~Abdulateef, Rawan~A.~Alsharida, Sahar~Lazim~Qaddoori,
+  Saadi~Hamad~Thalij, Maath~Frman, Abdulsalam~Hamid~Kutaibani, Noor~S.~Abd~//
+  \BibEmph{Journal of Cybersecurity and Privacy}. ---
+\newblock 2025. ---
+\newblock Vol.~5, no.~2. ---
+\newblock P.~20. \BibDoi{10.3390/jcp5020020}.
+
+\bibitem{ma2024siamese}
+\selectlanguageifdefined{english}
+\BibEmph{Ma,~Hongyu}. Smartphone Continuous Authentication via Deep Behavioral
+  Feature Learning~/ Hongyu~Ma et~al.~// Proceedings of the International
+  Conference on Computing and Artificial Intelligence. ---
+\newblock 2024. \BibDoi{10.1145/3712335.3712418}.
+
+\bibitem{zeeshan2025resource}
+\selectlanguageifdefined{english}
+\BibEmph{Zeeshan,~N.} Continuous Authentication in Resource-Constrained Devices
+  Using Behavioral Biometrics~/ N.~Zeeshan et~al.~// \BibEmph{Sensors}. ---
+\newblock 2025. \BibUrl{https://pmc.ncbi.nlm.nih.gov/articles/PMC12473775/}.
+
+\bibitem{teh2016touch}
+\selectlanguageifdefined{english}
+\BibEmph{Teh,~Pin~Shen}. A survey on touch dynamics authentication in mobile
+  devices~/ Pin~Shen~Teh, Na~Zhang, Andrew Beng~Jin~Teoh, Ke~Chen~//
+  \BibEmph{Computers \& Security}. ---
+\newblock 2016. ---
+\newblock Vol.~59. ---
+\newblock Pp.~210--235. \BibDoi{10.1016/j.cose.2016.03.003}.
+
+\bibitem{liu2008isolation}
+\selectlanguageifdefined{english}
+\BibEmph{Liu,~Fei~Tony}. Isolation Forest~/ Fei~Tony~Liu, Kai~Ming~Ting,
+  Zhi-Hua~Zhou~// \BibEmph{2008 Eighth IEEE International Conference on Data
+  Mining}. ---
+\newblock 2008. ---
+\newblock Pp.~413--422. \BibDoi{10.1109/ICDM.2008.17}.
+
+\bibitem{adams2007bocpd}
+\selectlanguageifdefined{english}
+\BibEmph{Adams,~Ryan~Prescott}. Bayesian Online Changepoint Detection~/
+  Ryan~Prescott~Adams, David J.~C.~MacKay~// \BibEmph{arXiv preprint
+  arXiv:0710.3742}. ---
+\newblock 2007. \BibUrl{https://arxiv.org/abs/0710.3742}.
+
+\bibitem{rabiner1989hmm}
+\selectlanguageifdefined{english}
+\BibEmph{Rabiner,~Lawrence~R.} A tutorial on hidden Markov models and selected
+  applications in speech recognition~/ Lawrence~R.~Rabiner~//
+  \BibEmph{Proceedings of the IEEE}. ---
+\newblock 1989. ---
+\newblock Vol.~77, no.~2. ---
+\newblock Pp.~257--286. \BibDoi{10.1109/5.18626}.
+
+\bibitem{bishop2006pattern}
+\selectlanguageifdefined{english}
+\BibEmph{Bishop,~Christopher~M.} Pattern Recognition and Machine Learning~/
+  Christopher~M.~Bishop. ---
+\newblock Springer, 2006.
+
+\bibitem{goodfellow2016deep}
+\selectlanguageifdefined{english}
+\BibEmph{Goodfellow,~Ian}. Deep Learning~/ Ian~Goodfellow, Yoshua~Bengio,
+  Aaron~Courville. ---
+\newblock MIT Press, 2016. \BibUrl{https://www.deeplearningbook.org/}.
+
+\bibitem{androidmotionevent}
+\selectlanguageifdefined{english}
+\BibEmph{{Android Developers}}. MotionEvent API reference. ---
+\newblock 2026.
+  \BibUrl{https://developer.android.com/reference/android/view/MotionEvent}.
+
+\bibitem{androidsensors}
+\selectlanguageifdefined{english}
+\BibEmph{{Android Developers}}. Sensors overview. ---
+\newblock 2026.
+  \BibUrl{https://developer.android.com/develop/sensors-and-location/sensors/sensors_overview}.
+
+\bibitem{androidsensorevent}
+\selectlanguageifdefined{english}
+\BibEmph{{Android Developers}}. SensorEvent API reference. ---
+\newblock 2025.
+  \BibUrl{https://developer.android.com/reference/android/hardware/SensorEvent}.
+
+\bibitem{androidcompose}
+\selectlanguageifdefined{english}
+\BibEmph{{Android Developers}}. Jetpack Compose UI App Development Toolkit. ---
+\newblock 2026. \BibUrl{https://developer.android.com/compose}.
+
+\bibitem{kotlinflow}
+\selectlanguageifdefined{english}
+\BibEmph{{Kotlin Foundation}}. Flow: kotlinx.coroutines API reference. ---
+\newblock 2026.
+  \BibUrl{https://kotlinlang.org/api/kotlinx.coroutines/kotlinx-coroutines-core/kotlinx.coroutines.flow/-flow/}.
+
+\bibitem{kotlinflowandroid}
+\selectlanguageifdefined{english}
+\BibEmph{{Android Developers}}. Kotlin flows on Android. ---
+\newblock 2026. \BibUrl{https://developer.android.com/kotlin/flow}.
+
+\bibitem{ryu2023adaptive}
+\selectlanguageifdefined{english}
+\BibEmph{Ryu,~R.} The design and evaluation of adaptive biometric
+  authentication systems: Current status, challenges and future direction~/
+  R.~Ryu, S.~Yeom, D.~Herbert, J.~Dermoudy~// \BibEmph{ICT Express}. ---
+\newblock 2023. ---
+\newblock Vol.~9, no.~6. ---
+\newblock Pp.~1183--1197. \BibDoi{10.1016/j.icte.2023.06.009}.
+
+\bibitem{aslan2023cybersecurity}
+\selectlanguageifdefined{english}
+\BibEmph{Aslan,~Omer}. A comprehensive review of cyber security
+  vulnerabilities, threats, attacks, and solutions~/ Omer~Aslan, Sezer~Aktuğ,
+  Merve~Ozkan-Okay, A.~Yilmaz, Erdal~Akin~// \BibEmph{Electronics}. ---
+\newblock 2023. ---
+\newblock Vol.~12, no.~6. ---
+\newblock P.~1333. \BibDoi{10.3390/electronics12061333}.
+
+\bibitem{shumway2023time}
+\selectlanguageifdefined{english}
+\BibEmph{Shumway,~Robert~H.} Time Series Analysis and Its Applications: With R
+  Examples~/ Robert~H.~Shumway, David~S.~Stoffer. ---
+\newblock 5 edition. ---
+\newblock Springer, 2023. \BibDoi{10.1007/978-3-031-70584-7}.
+
+\bibitem{geron2022hands}
+\selectlanguageifdefined{english}
+\BibEmph{Géron,~Aurélien}. Hands-On Machine Learning with Scikit-Learn,
+  Keras, and TensorFlow~/ Aurélien~Géron. ---
+\newblock 3 edition. ---
+\newblock O'Reilly Media, 2022.
+
+\bibitem{goldstein2023android}
+\selectlanguageifdefined{english}
+\BibEmph{Goldstein,~Barry~A.} Kotlin for Android App Development~/
+  Barry~A.~Goldstein. ---
+\newblock Packt Publishing, 2023.
+
+\end{thebibliography}
